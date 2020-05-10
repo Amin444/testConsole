@@ -12,7 +12,19 @@ namespace testConsole
             {
                 Console.WriteLine("good job");
             }
-            
+            bool stop=true
+            double s = 43;
+            while(stop)
+            { 
+            if (s>32)
+            {
+                s--;
+            }
+                else 
+                {
+                    stop = false;
+                }
+            }
         }
     }
 }
